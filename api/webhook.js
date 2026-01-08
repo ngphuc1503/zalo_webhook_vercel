@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   try {
     const data = req.body;
 
-  await fetch("https://script.google.com/macros/s/AKfycbxn5Gv0OgTshXZVifztdz5uEloVO7rfhn2TyyGAU8xPXMXa8Wj_Llt_OmQR43Iq7mkm/exec", {
+  await fetch("https://script.google.com/macros/s/AKfycbzhhth6P-qR-_1DPidjdmx9MvKGvcAHReu3mdD5vm7Pe-mx8HybdeGbxrGQeOzz6VIj/exec", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
