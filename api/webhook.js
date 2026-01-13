@@ -19,7 +19,7 @@ export default async function handler(req, res) {
 
     // --- B2: Forward sang Google Apps Script ---
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbzbqpEkUQaJXC-NthGilugVydsulJCW4g7OZheqwxxv0L8p_1MUJg4Py0IdmIL_jKqO/exec",
+      "https://script.google.com/macros/s/AKfycbz7CaH9FLzNOBZlI1B914QTcHSyllFrldnSB5EUrTLAtVoHkS16MPDFqClzkqYAUlNm/exec",
       {
         method: "POST",
         headers: {
